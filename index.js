@@ -159,7 +159,7 @@ const animate = () => {
   }
   speed = easeOutSine(getPercent(curDeg, maxRotation, 0)) * 20;
   if (speed < 0.01) {
-    logAfterSpinning();
+      logAfterSpinning();
     speed = 0;
     pause = true;
     return;
@@ -179,6 +179,7 @@ const spin = function () {
 
   // Log angles before spinning
   logBeforeSpinning();
+
 
   window.requestAnimationFrame(animate);
 };

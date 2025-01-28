@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
     <title>Fortune Teller</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -16,17 +21,21 @@
         <div class="wheel">
           <canvas class="canvas" width="500" height="500"></canvas>
           <div class="center-circle" onclick="spin()">
+            <i class="bx bx-refresh"></i>
             <div class="triangle"></div>
           </div>
         </div>
         <div class="inputArea" onchange="createWheel()">
+          <label for="nameInput" style="font-size: large; font-weight: 500;"
+            >Enter names or items (one per line):</label
+          >
           <textarea rows="20" cols="30" style="resize: none">
-lat
-cat
-hat
-nafda
-sdfasdf
-adsfasdf</textarea
+Sample
+Names
+Or
+Things
+To be
+Added here!</textarea
           >
         </div>
       </div>

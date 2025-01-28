@@ -26,7 +26,8 @@ header {
 .container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  gap: 2rem;
 }
 
 .wheel {
@@ -38,13 +39,22 @@ header {
 .center-circle {
   width: 100px;
   height: 100px;
-  border-radius: 60px;
+  border-radius: 50%;
   background-color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.center-circle i {
+  font-size: 60px;
+  color: #000;
 }
 
 .triangle {
@@ -62,12 +72,13 @@ header {
 textarea {
   background: rgba(20, 20, 20, 0.2);
   caret-color: #fff;
+  margin-top: 20px;
 }
 
 .inputArea {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
 }
 
 .winner {
