@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="holding">
+      <header>
+        <h1>Spin Me!</h1>
+        <p class="winner">None</p>
+      </header>
+      <div class="container">
+        <div class="wheel">
+          <canvas class="canvas" width="500" height="500"></canvas>
+          <div class="center-circle" onclick="spin()">
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <div class="inputArea" onchange="createWheel()">
+          <textarea rows="20" cols="30" style="resize: none">
+lat
+cat
+hat
+nafda
+sdfasdf
+adsfasdf</textarea
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
