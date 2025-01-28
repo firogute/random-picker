@@ -1,6 +1,6 @@
-# Fortune Teller - Spin the Wheel! 🎡
+# Random Picker - Spin the Wheel! 🎡
 
-Feeling indecisive? Can't decide who gets the last slice of pizza? Need to randomly assign chores to your roommates? Look no further! This **Fortune Teller Wheel** is here to save the day (or ruin it, depending on where the wheel lands). 
+Feeling indecisive? Can't decide who gets the last slice of pizza? Need to randomly assign chores to your roommates? Look no further! This **Fortune Teller Wheel** is here to save the day (or ruin it, depending on where the wheel lands).
 
 ## Features
 
